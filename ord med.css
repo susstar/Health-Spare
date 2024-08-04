@@ -89,7 +89,18 @@ footer {
   overflow: hidden;
   }
   
-
+  ::-webkit-scrollbar{
+    background-color: transparent;
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    
+    border-radius: 5px;
+    
+  }
+  
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f9;
