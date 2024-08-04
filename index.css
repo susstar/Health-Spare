@@ -1,0 +1,407 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar{
+  background-color: transparent;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  
+  border-radius: 5px;
+  
+}
+
+
+
+
+
+
+
+/* Body styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+/* Header styles */
+header {
+  background: linear-gradient(to right, #28a0e1, #e407d9);
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+
+}
+
+.main-logo {
+
+  height: 60px;
+  width: 300px;
+}
+
+/* Nav styles */
+.navbar ul {
+  list-style-type: none;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.navbar li {
+  color: #333;
+  padding: 10px 10px;
+  margin: 0 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+  border-left: solid #0568ca;
+
+
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: 500;
+  margin: 2px;
+}
+
+.navbar li:hover {
+  background-color: #c4eaf791;
+  border-radius: 8px;
+}
+
+.login {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #7bb5ef;
+  padding: 12px;
+  border-radius: 30px;
+  cursor: pointer;
+
+}
+
+.login {
+  color: #060606;
+}
+
+.login:hover {
+  background-color: #d941eaa8;
+  transition: background-color 0.3s ease 0.2s;
+}
+
+
+
+.hero {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('hero-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h5 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* infra section */
+
+.hospital-section {
+  display: flex;
+  align-items: center;
+  height: 400px;
+
+}
+
+.hos-img {
+  height: 280px;
+  width: 250px;
+  border-radius: 5px;
+  margin-top: 55px;
+  position: relative;
+  left: 80px;
+
+}
+
+.hospital-info {
+
+  padding: 20px;
+  height: 320px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 30px;
+  background-color: #cceeffb4;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+
+}
+
+.hospital-info h2 {
+
+  color: #0568ca;
+  margin-bottom: 15px;
+
+}
+
+.hospital-info p {
+  font-size: medium;
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.parant {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.crow {
+  padding-left: 50px;
+  margin-top: 50px;
+}
+
+/* ***************** its the 2nd batch ******************************/
+
+.hospital-section-2 {
+  display: flex;
+  align-items: center;
+  height: 400px;
+
+}
+
+.hos-img-2 {
+  height: 350px;
+  width: 350px;
+  border-radius: 200px;
+  margin-top: 20px;
+  position: sticky;
+  left: 950px;
+}
+
+.hospital-info-2 {
+
+  padding: 10px;
+  height: 250px;
+  width: 65vw;
+  margin-top: 70px;
+  margin-right: 80px;
+  margin-left: -185px;
+  background-color: #f8ccffb4;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.hospital-info-2 h2 {
+
+  color: #0568ca;
+  margin-bottom: 15px;
+
+}
+
+.hospital-info-2 p {
+  font-size: medium;
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.parant-2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.crow-2 {
+  padding-left: 20px;
+  margin-top: 35px;
+  margin-right: 160px;
+
+}
+
+/* quote */
+.quote {
+  background-color: whitesmoke;
+  height: 100px;
+  margin-top: 50px;  
+}
+
+.quote h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 15px;
+}
+.quote i{
+  margin-left: 1100px;
+  position: relative;
+}
+
+.dr{
+  background: linear-gradient( to right, rgb(7, 7, 177),rgb(245, 170, 48));
+  margin-top: 90px;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.dr h2{
+  margin-top: 100px;
+  margin-left: 70px;
+  margin-right: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 1000;
+}
+.dr img {
+  height: 500px;
+  width: 2280px;
+  mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(3, 3, 3, 0));
+
+}
+.lab{
+  justify-content: flex-end;
+  background: linear-gradient( to right, rgb(245, 170, 48),rgb(70, 115, 221));
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.lab img {
+  mask-image: linear-gradient(to left, rgb(0, 0, 0), rgba(3, 3, 3, 0));
+  height: 500px;
+  width: 2530px;   
+ position: relative;
+ right: -700px;  
+
+
+}
+.lab h2{
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 1000;
+   margin-top: 100px;
+  margin-right: 100px; 
+  display:flex;
+  justify-content: space-between;
+  right: 500px;
+}
+   
+/* Footer styling */
+footer {
+  background-color: #000000; 
+  color: #fff; 
+  padding: 20px 0;
+  margin-top: 50px;
+
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.f-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.ft-logo {
+  margin-right: 30px; 
+  margin-bottom: 50px;
+  margin-top: 50px;
+  height: 50px; 
+}
+
+.f-link ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1; 
+}
+
+.f-link li {
+  margin: 0 15px;
+}
+
+.f-link a {
+  color: #fff;
+  text-decoration: none;    
+  transition: color 0.3s;
+}
+
+.f-link a:hover {
+  color: #00b3ff; 
+}
+
+.footer-info {
+
+  /* margin-top: 20px; */
+  padding-top: 30px; 
+  border-top: 1px solid #f7f7f7; 
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+}
+
+.footer-info p {
+  margin: 20px 0 0; 
+
+}
+.icons{
+
+  overflow-x: hidden; 
+   overflow-y: hidden;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+ 
+}
+.fab{
+ 
+  padding-top: 50px;
+  padding-bottom: 20px;
+overflow: hidden;
+}
+
+
+

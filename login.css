@@ -1,0 +1,59 @@
+ body {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     height: 80vh;
+     background-image: url('deadly doc.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+    
+ }
+
+ .login-cont {
+     background-color: #787878bc ;
+     padding: 8vh;
+     border-radius: 30px;
+     box-shadow: rgba(0, 0, 0, 0.1);
+     width: 350px;
+     text-align: center;
+ }
+
+ .login-cont h2 {
+     margin-bottom: 20px;
+ }
+
+ .login-cont label {
+     display: block;
+     text-align: left;
+     margin-bottom: 8px;
+     color: #060606;
+     font-weight: 300;
+ }
+
+ .login-cont input {
+     width: 90%;
+     padding: 10px;
+     margin-bottom: 20px;
+     border: 1px solid #cccccc;
+     border-radius: 4px;
+ }
+
+ .login-cont button.login {
+     width: 100%;
+     padding: 10px;
+     background-color: #007BFF;
+     border: none;
+     border-radius: 4px;
+     color: white;
+     font-size: 16px;
+     cursor: pointer;
+ }
+
+ .login-cont button:hover {
+     background-color: #0056b3;
+ }
+ .login-cont a {
+    color: #060606;
+ }
