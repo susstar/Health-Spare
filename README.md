@@ -1,11 +1,3 @@
-# Health-Spare
-here we have a website for hospital through which a patient can book appointments(department wise), tests slots and also can order medicines.
-
-
-Certainly! Here's a README file for your GitHub repository:
-
----
-
 # Health Spare Hospital Website
 
 Welcome to the **Health Spare Hospital** website repository! Our website serves as a comprehensive platform for patients to access a range of healthcare services conveniently.
